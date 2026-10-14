@@ -10,6 +10,7 @@ TagManager:
   - middle
   - paddemiddle_right
   - paddle_right
+  - Ball
   layers:
   - Default
   - TransparentFX
