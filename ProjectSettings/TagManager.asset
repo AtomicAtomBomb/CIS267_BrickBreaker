@@ -13,6 +13,8 @@ TagManager:
   - Test
   - paddlemiddle_right
   - paddle
+  - Shield
+  - PoolBall
   layers:
   - Default
   - TransparentFX

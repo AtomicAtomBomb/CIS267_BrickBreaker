@@ -11,10 +11,9 @@ GameObject:
   - component: {fileID: 8100832814276399213}
   - component: {fileID: 3687476205205170340}
   - component: {fileID: 8091536001820158335}
-  - component: {fileID: 2288612403415566969}
   m_Layer: 0
   m_Name: redpoolball_0
-  m_TagString: Untagged
+  m_TagString: PoolBall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -130,15 +129,3 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 1.94
---- !u!114 &2288612403415566969
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5284896435181502539}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 281bb94bad93f1f47ab8932dc7273746, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BallDestroyer
