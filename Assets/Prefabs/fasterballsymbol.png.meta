@@ -1,25 +1,16 @@
 fileFormatVersion: 2
-guid: 5c0b402fc1d1fb748a09d1366efcbfa9
+guid: 2f3664f625c890449976e0245fbcf918
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2078557915484500157
-    second: other8balls_0
+      213: -7567102388011137330
+    second: fasterballsymbol_0
   - first:
-      213: -5510868615316342388
-    second: other8balls_1
+      213: 8487979608740587893
+    second: fasterballsymbol_1
   - first:
-      213: 5602082244678832474
-    second: other8balls_2
-  - first:
-      213: -9033413529186630616
-    second: other8balls_3
-  - first:
-      213: -4521469011921500151
-    second: other8balls_4
-  - first:
-      213: -1320205828585639031
-    second: other8balls_5
+      213: -2928124451588574908
+    second: fasterballsymbol_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -115,13 +106,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: other8balls_0
+      name: fasterballsymbol_0
       rect:
         serializedVersion: 2
-        x: 275
-        y: 736
-        width: 239
-        height: 239
+        x: 354
+        y: 403
+        width: 269
+        height: 406
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,20 +121,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: db0b785596588dc10800000000000000
-      internalID: 2078557915484500157
+      spriteID: ec6069768704cf690800000000000000
+      internalID: -7567102388011137330
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: other8balls_1
+      name: fasterballsymbol_1
       rect:
         serializedVersion: 2
-        x: 528
-        y: 730
-        width: 240
-        height: 239
+        x: 672
+        y: 396
+        width: 288
+        height: 391
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,20 +143,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c89783431367583b0800000000000000
-      internalID: -5510868615316342388
+      spriteID: 579edbf9b7c5bc570800000000000000
+      internalID: 8487979608740587893
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: other8balls_2
+      name: fasterballsymbol_2
       rect:
         serializedVersion: 2
-        x: 790
-        y: 728
-        width: 240
-        height: 239
+        x: 1003
+        y: 394
+        width: 311
+        height: 399
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,74 +165,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a51da94de189ebd40800000000000000
-      internalID: 5602082244678832474
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: other8balls_3
-      rect:
-        serializedVersion: 2
-        x: 269
-        y: 474
-        width: 240
-        height: 239
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8248f9b914ed2a280800000000000000
-      internalID: -9033413529186630616
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: other8balls_4
-      rect:
-        serializedVersion: 2
-        x: 535
-        y: 471
-        width: 239
-        height: 239
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9088b71b3e38041c0800000000000000
-      internalID: -4521469011921500151
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: other8balls_5
-      rect:
-        serializedVersion: 2
-        x: 799
-        y: 469
-        width: 239
-        height: 239
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 983b0cc2bcfadade0800000000000000
-      internalID: -1320205828585639031
+      spriteID: 4417dec33563d57d0800000000000000
+      internalID: -2928124451588574908
       vertices: []
       indices: 
       edges: []
@@ -260,12 +185,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      other8balls_0: 2078557915484500157
-      other8balls_1: -5510868615316342388
-      other8balls_2: 5602082244678832474
-      other8balls_3: -9033413529186630616
-      other8balls_4: -4521469011921500151
-      other8balls_5: -1320205828585639031
+      fasterballsymbol_0: -7567102388011137330
+      fasterballsymbol_1: 8487979608740587893
+      fasterballsymbol_2: -2928124451588574908
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

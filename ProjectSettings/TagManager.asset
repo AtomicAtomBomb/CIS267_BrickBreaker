@@ -8,9 +8,11 @@ TagManager:
   - paddle_left
   - paddlemiddle_left
   - middle
-  - paddemiddle_right
   - paddle_right
   - Ball
+  - Test
+  - paddlemiddle_right
+  - paddle
   layers:
   - Default
   - TransparentFX

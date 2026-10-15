@@ -22,6 +22,11 @@ public class PaddleController : MonoBehaviour
 
     void Update()
     {
+        movePaddleHorizontal();
+    }
+
+    void movePaddleHorizontal()
+    {
         float inputHorizontal = Input.GetAxisRaw("Horizontal");
         paddle_rb.linearVelocity = new Vector2(inputHorizontal * movementSpeed, paddle_rb.linearVelocityY);
     }
