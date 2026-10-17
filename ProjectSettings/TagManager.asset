@@ -15,6 +15,12 @@ TagManager:
   - paddle
   - Shield
   - PoolBall
+  - Unbreakable
+  - FasterBall
+  - RollingBall
+  - WidePaddleBall
+  - LaserBall
+  - SmallPaddleBall
   layers:
   - Default
   - TransparentFX
