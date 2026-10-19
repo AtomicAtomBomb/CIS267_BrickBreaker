@@ -1,3 +1,9 @@
+//====================================================
+//Author: Marcel Dahmoun
+//Date: 10-07-2026
+//Desc: Handles movement of ball and where ball bounces off paddle
+//Attach: Ball
+//====================================================
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -5,12 +11,17 @@ public class BallController : MonoBehaviour
 {
     public float initialSpeed = 5f;
     private Rigidbody2D ball_rb;
-    private int playerLives = 3;
+    public PlayerLives lives;
     public GameObject ballStartPos;
+    public GameObject smallBallStartPos;
+    public GameObject wideBallStartPos;
     public GameObject normalPaddle;
     public GameObject widePaddle;
     public GameObject smallPaddle;
+    public GameObject menu;
     private bool gameStarted = false;
+    private bool smallPaddleActive = false;
+    private bool widePaddleActive = false;
 
     void Start()
     {
@@ -93,6 +104,13 @@ public class BallController : MonoBehaviour
 
             normalPaddle.SetActive(false);
             widePaddle.SetActive(true);
+            widePaddleActive = true;
+
+            if (smallPaddleActive == true)
+            {
+                smallPaddle.SetActive(false);
+                smallPaddleActive = false;
+            }
         }
 
         if (collision.gameObject.CompareTag("SmallPaddleBall"))
@@ -102,6 +120,13 @@ public class BallController : MonoBehaviour
 
             normalPaddle.SetActive(false);
             smallPaddle.SetActive(true);
+            smallPaddleActive = true;
+
+            if (widePaddleActive == true)
+            {
+                widePaddle.SetActive(false);
+                widePaddleActive = false;
+            }
         }
     }
 
@@ -109,16 +134,31 @@ public class BallController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("OOB"))
         {
-            playerLives--;
+            lives.loseLive();
             ball_rb.transform.position = new Vector2(ballStartPos.transform.position.x, ballStartPos.transform.position.y);
-            if (playerLives == 0)
+            ball_rb.linearVelocity = new Vector2(0, 0);
+            gameStarted = false;
+            initialSpeed = 10f;
+            if (lives.getLives() == 0)
             {
-                Debug.Log("Restart Level");
-                SceneManager.LoadScene("Level1");
+                menu.SetActive(false);
+                SceneManager.LoadScene("GameOver");
+            }
+
+            if (widePaddleActive == true)
+            {
+                ball_rb.transform.position = new Vector2(wideBallStartPos.transform.position.x, wideBallStartPos.transform.position.y);
+                ball_rb.linearVelocity = new Vector2(0, 0);
+            }
+
+            if (smallPaddleActive == true)
+            {
+                ball_rb.transform.position = new Vector2(smallBallStartPos.transform.position.x, smallBallStartPos.transform.position.y);
+                ball_rb.linearVelocity = new Vector2(0, 0);
             }
         }
     }
-
+        
     private void moveBallWithPaddle()
     {
         float inputHorizontal = Input.GetAxisRaw("Horizontal");

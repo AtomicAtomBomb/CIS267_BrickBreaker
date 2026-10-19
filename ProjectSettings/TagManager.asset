@@ -10,17 +10,17 @@ TagManager:
   - middle
   - paddle_right
   - Ball
-  - Test
   - paddlemiddle_right
   - paddle
   - Shield
   - PoolBall
   - Unbreakable
   - FasterBall
-  - RollingBall
   - WidePaddleBall
   - LaserBall
   - SmallPaddleBall
+  - GameManager
+  - TeleportingBall
   layers:
   - Default
   - TransparentFX

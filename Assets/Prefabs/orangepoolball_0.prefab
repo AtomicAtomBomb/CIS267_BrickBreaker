@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 4643349015039555084}
   - component: {fileID: 4961298879202636084}
   - component: {fileID: -5257171157651210466}
+  - component: {fileID: -276905527460771564}
+  - component: {fileID: 9141124333045750503}
   m_Layer: 0
   m_Name: orangepoolball_0
   m_TagString: PoolBall
@@ -129,3 +131,28 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 1.94
+--- !u!114 &-276905527460771564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1938784128260096269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f61d78765f87c044a9a054827b1ad78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BallScores
+--- !u!114 &9141124333045750503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1938784128260096269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dada3dec5055e23469f1731fc0616721, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BallData
+  ballValue: 15

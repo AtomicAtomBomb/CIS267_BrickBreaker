@@ -288,6 +288,8 @@ GameObject:
   - component: {fileID: 583772043987533321}
   - component: {fileID: 27013702295220355}
   - component: {fileID: -442972788851118325}
+  - component: {fileID: 1456988848739779189}
+  - component: {fileID: 3235617737616802853}
   m_Layer: 0
   m_Name: smallPaddleBall
   m_TagString: SmallPaddleBall
@@ -421,3 +423,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 281bb94bad93f1f47ab8932dc7273746, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BallDestroyer
+--- !u!114 &1456988848739779189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8688151389386442328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dada3dec5055e23469f1731fc0616721, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BallData
+  ballValue: 20
+--- !u!114 &3235617737616802853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8688151389386442328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f61d78765f87c044a9a054827b1ad78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BallScores

@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 1595622568018913971}
   - component: {fileID: 192056993010487530}
   - component: {fileID: 9026214127733323844}
+  - component: {fileID: -4360654606184310325}
+  - component: {fileID: 4359545215754936764}
   m_Layer: 0
   m_Name: shieldBall
   m_TagString: Shield
@@ -143,6 +145,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 281bb94bad93f1f47ab8932dc7273746, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BallDestroyer
+  shieldHits: 0
+  teleportingOption1: {fileID: 0}
+  teleportingOption2: {fileID: 0}
+  teleportingOption3: {fileID: 0}
+  teleportingBall: {fileID: 0}
+  menu: {fileID: 0}
+--- !u!114 &-4360654606184310325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2389655058902724405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dada3dec5055e23469f1731fc0616721, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BallData
+  ballValue: 100
+--- !u!114 &4359545215754936764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2389655058902724405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f61d78765f87c044a9a054827b1ad78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BallScores
+  hitTwice: 0
 --- !u!1 &5639876218882037480
 GameObject:
   m_ObjectHideFlags: 0

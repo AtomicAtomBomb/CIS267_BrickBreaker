@@ -104,6 +104,8 @@ GameObject:
   - component: {fileID: 9062929476493276174}
   - component: {fileID: 3430975499341119757}
   - component: {fileID: 2278553152372576516}
+  - component: {fileID: 2352328948241418184}
+  - component: {fileID: -7442419733011514889}
   m_Layer: 0
   m_Name: widepaddle
   m_TagString: WidePaddleBall
@@ -237,6 +239,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 281bb94bad93f1f47ab8932dc7273746, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BallDestroyer
+--- !u!114 &2352328948241418184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1533261583263278966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dada3dec5055e23469f1731fc0616721, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BallData
+  ballValue: 25
+--- !u!114 &-7442419733011514889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1533261583263278966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f61d78765f87c044a9a054827b1ad78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BallScores
 --- !u!1 &3755100721960914626
 GameObject:
   m_ObjectHideFlags: 0
